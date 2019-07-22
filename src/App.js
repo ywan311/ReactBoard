@@ -1,9 +1,17 @@
 import React from 'react';
+import Header from "./Componenets/Header"
+import Routes from "./Routes"
+import { BrowserRouter as Router } from "react-router-dom"
 
 
 function App() {
   return (
-    <p> app</p>
+    <Router>
+      <div>
+        <Header/>
+        <Routes/>
+      </div>
+    </Router>
   );
 }
 
